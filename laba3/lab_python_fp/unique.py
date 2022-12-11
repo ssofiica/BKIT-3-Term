@@ -10,7 +10,7 @@ class Unique(object):
         for i in self.items:
             if not (i in NewData):
                 NewData.append(i)
-        print(NewData)
+        return NewData
 
     def __iter__(self):
         return self
