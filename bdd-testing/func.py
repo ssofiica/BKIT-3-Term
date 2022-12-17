@@ -1,4 +1,3 @@
-
 class Unique(object):
     def __init__(self, items, **kwargs):
         if 'ignore_case' in kwargs:

@@ -12,8 +12,8 @@ class Unique(object):
                 NewData.append(i)
         return NewData
 
-    #def __iter__(self):
-        #return self
+    def __iter__(self):
+        return self
 
 def Testing(data):
     D = Unique(data)

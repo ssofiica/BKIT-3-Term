@@ -1,4 +1,3 @@
-
 class Unique(object):
     def __init__(self, items, **kwargs):
         if 'ignore_case' in kwargs:
@@ -14,3 +13,15 @@ class Unique(object):
 
     def __iter__(self):
         return self
+
+def Testing(data):
+    D = Unique(data)
+    return D.__next__()
+
+def main3():
+    data = [1, 3, 1, 2, 5, 2]
+    D = Unique(data)
+    print(D.__next__())
+
+if __name__ == '__main__':
+    main3()

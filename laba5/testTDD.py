@@ -4,8 +4,8 @@ from unique import Testing
 class UniqueTest(unittest.TestCase):
     def test(self):
         self.assertEqual(
-            Testing([1, 3, 1, 2, 5, 2]),
-            [1, 3, 2, 5]
+            Testing([1, 3, 1, 2, 5, 2, 7]),
+            [1, 3, 2, 5, 7]
         )
     def test_1(self):
         self.assertEqual(
