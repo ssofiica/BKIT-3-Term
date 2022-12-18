@@ -1,10 +1,10 @@
 # Ignore IDE specific files
-.idea/
+/.idea/
 
-venv/
+/venv/
 
-__pycache__
+/__pycache__/
 
-.ipython/
+/.ipython/
 
-.matplotlib/
+/.matplotlib/
